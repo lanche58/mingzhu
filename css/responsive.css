@@ -1,0 +1,56 @@
+@media screen and (min-width:1153px){
+/* animation */
+.scapic:hover img{ transform:scale(1.1); -webkit-transform:scale(1.1); }
+.transY{ transform:translateY(60px); -webkit-transform:translateY(60px); opacity:0;  }
+.transY2{ transform:translateY(-60px); -webkit-transform:translateY(-60px); opacity:0; }
+.transX{ transform:translateX(60px); -webkit-transform:translateX(60px); opacity:0;  }
+.transX2{ transform:translateX(-60px); -webkit-transform:translateX(-60px); opacity:0; }
+.transShow{ transform:translate(0); -webkit-transform:translate(0); opacity:1; }
+.trans-2 { position: relative; }
+.trans-2:before { content: ""; position: absolute; right: 0; bottom: 0; top: 0; left: 0; background: #fff; transform: scaleY(1); -webkit-transform: scaleY(1); transition: transform 1.88s 0.2s cubic-bezier(.4, 0, .2, 1); -webkit-transition: transform 1.88s 0.2s cubic-bezier(.4, 0, .2, 1); -webkit-transform-origin: center top; transform-origin: center top; z-index: 10; }
+.trans-2.transShow:before { transform: scaleY(0); -webkit-transform: scaleY(0); }
+/* animation end */
+} /* 1153 */
+@media screen and (max-width:1600px){
+
+} /* 1600 */
+@media screen and (max-width:1440px){
+
+} /* 1440 */
+@media screen and (max-width:1366px){
+.pw{ width:1000px; }
+} /* 1366 */
+@media screen and (max-width:1281px){
+
+} /* 1281 */
+@media screen and (max-width:1153px){
+
+} /* 1153 */
+@media screen and (max-width:1024px){
+.vwrap .videobox { width: 700px; margin-left: -350px; }
+.fixbg{ background-attachment:scroll; }
+.pw{ width:90%; }	
+
+} /* 1024 */
+@media screen and (max-width:861px){
+.vwrap .videobox { width:100%; left:0; margin-left:0; }
+
+} /* 861 */
+@media screen and (max-width:641px){
+.vwrap .videobox { height: 350px;  margin-top:-175px;}
+
+
+} /* 641 */
+@media screen and (max-width:601px){
+} /* 601 */
+@media screen and (max-width:481px){
+.vwrap .videobox { height: 300px; margin-top:-150px; }
+
+} /* 481 */
+@media screen and (max-width:361px){
+
+} /* 361 */
+@media screen and (max-width:321px){
+.vwrap .videobox { height: 260px; margin-top:-130px; }
+
+} /* 321 */
